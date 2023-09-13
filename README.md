@@ -19,7 +19,7 @@ Este é um projeto de rastreamento de preços de criptomoedas desenvolvido usand
 
 ## Tecnologias Utilizadas 💻
 
-- **ReactJS:** Utilizado para criar a interface de usuário dinâmica e interativa.
+- **[ReactJS](https://react.dev/):** Utilizado para criar a interface de usuário dinâmica e interativa.
 - **TailwindCSS:** Estilização responsiva e moderna da aplicação.
 - **API CoinGecko:** Fonte de dados para os preços das criptomoedas.
 
