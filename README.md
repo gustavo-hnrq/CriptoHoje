@@ -1,11 +1,12 @@
-# CriptoHoje 🚀
+# CryptoHoje 🚀
 
 Este é um projeto de rastreamento de preços de criptomoedas desenvolvido usando ReactJS, TailwindCSS e a API CoinGecko. Com esta aplicação, você pode acompanhar os preços de 100 criptomoedas diferentes em tempo real.
 
 ## Recursos Principais 📊
 
 - **Rastreamento de Preços:** A aplicação exibe os preços atuais de 100 criptomoedas populares.
-  
+- **Pesquisa:** Use a função de pesquisa para encontrar rapidamente a criptomoeda que deseja rastrear.
+
 ## Como Usar 🤔
 
 1. **Instalação:**
