@@ -7,7 +7,7 @@ import { Fade } from 'react-awesome-reveal';
 function App() {
   return (
     <div>
-      <Fade delay={1e2} cascade damping={1e-1} direction='up'>
+      <Fade delay={1e2} cascade damping={1e-1} direction='down'>
       <div className='text-center mb-8'>
         <h1 className='text-white font-black text-7xl mt-10 ml-5 mr-5 mb-1'>Descubra os preços <br />das principais criptomoedas</h1>
         <TypeAnimation className='ml-5 mr-5 text-7xl text-blue-500 font-bold mt-10 text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500'
@@ -39,8 +39,8 @@ function App() {
         />
         <p className='text-white text-2xl leading-6 mt-5 antialiased'>Acompanhe os preços e tendências das criptomoedas mais populares.</p>
       </div>
-      <Cartao />
       </Fade>
+      <Cartao />
     </div>
   
     
