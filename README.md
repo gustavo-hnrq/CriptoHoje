@@ -23,6 +23,3 @@ Este é um projeto de rastreamento de preços de criptomoedas desenvolvido usand
 - **[TailwindCSS](https://tailwindcss.com/):** Estilização responsiva e moderna da aplicação.
 - **[CoinGecko API](https://www.coingecko.com/pt/api)** Fonte de dados para os preços das criptomoedas.
 
-## Licença 📜
-
-Este projeto está sob a Licença MIT. Consulte o arquivo `LICENSE` para obter mais detalhes.
