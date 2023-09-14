@@ -1,47 +1,48 @@
 import './App.css';
-import './components/cartao'
 import Cartao from './components/cartao';
 import { TypeAnimation } from 'react-type-animation';
+import { Fade } from 'react-awesome-reveal';
 
 
 function App() {
   return (
     <div>
+      <Fade delay={1e2} cascade damping={1e-1} direction='up'>
       <div className='text-center mb-8'>
-        <h1 className='text-white font-black text-7xl mt-28'>Descubra os preços <br/> em tempo real das</h1>
-        <h1 className='text-white font-black text-7xl mb-2'>principais criptomoedas</h1>
-        <TypeAnimation className='text-7xl text-blue-500 font-bold mt-10 text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500'
-        sequence={[
+        <h1 className='text-white font-black text-7xl mt-10 ml-5 mr-5 mb-1'>Descubra os preços <br />das principais criptomoedas</h1>
+        <TypeAnimation className='ml-5 mr-5 text-7xl text-blue-500 font-bold mt-10 text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500'
+          sequence={[
           "Bitcoin",
-          2500,
+          3000,
           "Ethereum",
-          2500,
+          3000,
           "USD Coin", 
-          2500,
+          3000,
           "Litecoin",
-          2500,
+          3000,
           "Tether",
-          2500,
+          3000,
           "BNB", 
-          2500,
-          "Dogecoin",
-          2500,
+          3000,
+          "Polygon",
+          3000,
           "XRP",
-          2500, 
+          3000, 
           "Solana",
-          2500,
+          3000,
           "Shiba Inu",
-          2500
-        ]}
-        speed={1}
-        deletionSpeed={1}
-        repeat={Infinity}
+          3000
+          ]}
+          speed={1}
+          deletionSpeed={1}
+          repeat={Infinity}
         />
-        <p className='text-white text-2xl leading-6 mt-5'>Acompanhe os preços e tendências das criptomoedas mais populares. <br /> Tome decisões com dados atualizados em tempo real.</p>
+        <p className='text-white text-2xl leading-6 mt-5 antialiased'>Acompanhe os preços e tendências das criptomoedas mais populares.</p>
       </div>
       <Cartao />
+      </Fade>
     </div>
-
+  
     
   );
 }
