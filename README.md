@@ -4,7 +4,7 @@ Este é um projeto de rastreamento de preços de criptomoedas desenvolvido usand
 
 ## Recursos Principais 📊
 
-- **Rastreamento de Preços:** A aplicação exibe os preços atuais de 100 criptomoedas populares.
+- **Rastreamento de Preços:** A aplicação exibe os preços atuais de diversas criptomoedas populares.
 
 ## Tecnologias Utilizadas 💻
 
