@@ -1,5 +1,5 @@
 import './App.css';
-import Cartao from './components/cartao';
+import Cartao from './components/Cartao';
 import { TypeAnimation } from 'react-type-animation';
 import { Fade } from 'react-awesome-reveal';
 
@@ -9,8 +9,8 @@ function App() {
     <div>
       <Fade delay={1e2} cascade damping={1e-1} direction='down'>
         <div className='text-center mb-8'>
-          <h1 className='text-white font-black text-7xl mt-10 ml-5 mr-5 mb-1 antialiased'>Descubra os preços <br />das principais criptomoedas</h1>
-          <TypeAnimation className='ml-5 mr-5 text-7xl text-blue-500 font-bold mt-10 text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500'
+          <h1 className='text-white font-black text-6xl mt-10 ml-5 mr-5 mb-1 antialiased'>Descubra os preços <br />das principais criptomoedas</h1>
+          <TypeAnimation className='ml-5 mr-5 text-6xl text-blue-500 font-bold mt-10 text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500'
           sequence={[
           "Bitcoin",
           3000,
@@ -43,8 +43,6 @@ function App() {
       <Cartao />
       <a href='https://github.com/henzy0/CriptoHoje/' target='_blank' className='flex justify-center m-5 font-black text-transparent bg-gradient-to-r bg-clip-text from-pink-500 to-blue-500'>Feito por Gustavo</a>
     </div>
-  
-    
   );
 }
 
