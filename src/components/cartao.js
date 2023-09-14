@@ -15,14 +15,16 @@ const Cartao = () => {
   }, [])
 
   return(
-    <div className="grid grid-cols-3 gap-y-5 gap-x-5 p-10 ml-72 mr-72 ">
+    <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mr-10 ml-10">
       {data.map(element => (
-        <div className=" block grid-cols-3 max-w-screen-sm p-6 border border-zinc-600 rounded-lg">
+        <div className="p-6 border border-zinc-600 rounded-lg shadow-">
           <img src={element.image}
           className="w-8"
           />
-          <h5 className="flex mb-1 text-2xl font-medium tracking-tight text-white">{element.name}</h5>
-          <h5 className="flex mb-2 text-white">Preço atual: R${element.current_price}</h5>
+          <h5 className="mb-3 mt-2 text-2xl font-semibold text-white">{element.name}</h5>
+          <p className="text-transparent bg-gradient-to-r bg-clip-text from-blue-500 to-green-500 text-lg font-black">Preço atual: R$ {element.current_price}</p>
+          <p className="text-white">Max 24h: R$ {element.high_24h} </p>
+          <p className="text-white">Min 24h: R$ {element.low_24h} </p>
         </div>
         ))}
     </div>

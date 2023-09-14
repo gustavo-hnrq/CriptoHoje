@@ -1,7 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #181818;
 }
+
+@media (max-width: 1024px) {
+  .text-7xl{
+    font-size: 50px;
+  }
+  .text-2xl{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 700px) {
+    .text-7xl{
+      font-size: 40px;
+    }
+    .text-2xl{
+      font-size: 14px;
+    }
+}
+
+@media (max-width: 350px) {
+  .text-7xl{
+    font-size: 30px;
+  }
+}
+
 
