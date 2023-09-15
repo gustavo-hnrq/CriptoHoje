@@ -18,4 +18,5 @@ Este é um projeto de rastreamento de preços de criptomoedas desenvolvido usand
 2. **Execução:**
    - Execute `npm start` para iniciar a aplicação em um servidor local.
 
+## Demonstração da Aplicação 🖥️
 <img src="preview-site.gif">
