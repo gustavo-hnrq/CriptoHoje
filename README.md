@@ -19,3 +19,4 @@ Este é um projeto de rastreamento de preços de criptomoedas desenvolvido usand
    - Execute `npm start` para iniciar a aplicação em um servidor local.
 
 <img src="preview-site.gif">
+![preview-site](https://github.com/henzy0/CriptoHoje/assets/133707512/a03d0661-634f-4f86-89a4-7a3b52f52178)
