@@ -4,6 +4,10 @@
   background-color: #181818;
 }
 
+/*  Esse @media serve para a responsividade do site, controlando o tamanho do texto da página quando a largura da tela é igual ou menor que X pixels. 
+Aqui, define que textos com a classe "text-7xl" terão um tamanho de fonte de 50 pixels, enquanto textos com a classe "text-2xl" terão um tamanho de fonte de 18 pixels.
+Fazendo uma mudança do font-size para diferentes tamanhos de tela. Serve para os outros 2 @media também.*/
+
 @media (max-width: 1024px) {
   .text-7xl{
     font-size: 50px;
