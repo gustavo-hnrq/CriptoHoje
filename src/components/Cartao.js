@@ -24,7 +24,7 @@ const Cartao = () => {
       {/* O {data} contém objetos que representam diferentes criptomoedas e o map é utilizado
       para percorrer cada objeto e renderizar um bloco de informações para cada uma delas.*/}
       {data.map(element => (
-        <div className="p-6 border border-zinc-600 rounded-lg shadow-xl hover:scale-105 hover:border-pink-500">
+        <div className="p-6 border border-zinc-600 rounded-lg shadow-xl hover:scale-105 hover:border-pink-500 duration-300">
           {/* O efeito de fade-in faz parte da biblioteca {react-awesome-reveal} que está
            com um atraso e sua direção será para cima. É aplicado a todos os elementos filhos.  */}
           <Fade delay={1e2} cascade damping={1e-1} direction='up'>
